@@ -28,7 +28,7 @@
         </div>
         <div class="hero-card">
           <img
-            src="https://images.unsplash.com/photo-1616594039964-3d5d8f7f2d3d?auto=format&fit=crop&w=1200&q=80"
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
             alt="Warm renovated living room"
           />
         </div>
