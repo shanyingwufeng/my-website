@@ -1,491 +1,285 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="homepage">
-    <!-- Hero Section -->
-    <header class="hero">
-      <nav class="navbar">
-        <div class="nav-container">
-          <div class="logo">BuildCraft</div>
-          <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-      </nav>
-      <div class="hero-content">
-        <h1 class="hero-title">Building Dreams, Crafting Reality</h1>
-        <p class="hero-subtitle">Professional Construction & Renovation Services</p>
-        <button class="cta-button">Get Free Quote</button>
+  <div class="page">
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">Nest <span>& Co</span> Interiors</div>
+        <nav class="links">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-      <div class="container">
-        <h2 class="section-title">Our Services</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">🏠</div>
-            <h3>Home Renovation</h3>
-            <p>Complete home remodeling solutions tailored to your lifestyle and budget</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🏢</div>
-            <h3>Commercial Construction</h3>
-            <p>Professional commercial building and office renovation services</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🏗️</div>
-            <h3>New Construction</h3>
-            <p>From ground up construction to custom home building projects</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🎨</div>
-            <h3>Interior Design</h3>
-            <p>Expert interior design and space planning services</p>
+    <main class="container">
+      <section class="hero">
+        <div>
+          <h1>Simple, warm home renovations in New Zealand.</h1>
+          <p>
+            We help homeowners refresh kitchens, bathrooms, and living spaces with natural tones,
+            quality finishes, and transparent pricing.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#contact">Get a Free Quote</a>
+            <a class="btn light" href="#projects">View Our Work</a>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="hero-card">
+          <img
+            src="https://images.unsplash.com/photo-1616594039964-3d5d8f7f2d3d?auto=format&fit=crop&w=1200&q=80"
+            alt="Warm renovated living room"
+          />
+        </div>
+      </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="about-content">
-          <div class="about-text">
-            <h2 class="section-title">About BuildCraft</h2>
-            <p>
-              With over 15 years of experience in the construction and renovation industry,
-              BuildCraft has established itself as a trusted name in quality craftsmanship and
-              innovative design solutions.
-            </p>
-            <p>
-              Our team of skilled professionals is committed to delivering exceptional results that
-              exceed client expectations, whether it's a small renovation project or a large-scale
-              construction endeavor.
-            </p>
-            <div class="stats">
-              <div class="stat">
-                <div class="stat-number">500+</div>
-                <div class="stat-label">Projects Completed</div>
-              </div>
-              <div class="stat">
-                <div class="stat-number">15+</div>
-                <div class="stat-label">Years Experience</div>
-              </div>
-              <div class="stat">
-                <div class="stat-number">98%</div>
-                <div class="stat-label">Client Satisfaction</div>
-              </div>
-            </div>
-          </div>
-          <div class="about-image">
-            <div class="image-placeholder">🏗️</div>
-          </div>
+      <section id="services" class="section">
+        <h2>What we renovate</h2>
+        <p class="muted">Comfortable spaces, timeless style, and a smooth process from start to finish.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Kitchen Renovation</h3>
+            <p>Layout optimisation, cabinetry, benchtops, lighting, and appliance integration.</p>
+          </article>
+          <article class="card">
+            <h3>Bathroom Makeovers</h3>
+            <p>Waterproofing, tiling, vanities, fixtures, and modern space-saving designs.</p>
+          </article>
+          <article class="card">
+            <h3>Full Interior Refresh</h3>
+            <p>Painting, flooring, custom storage, and styling for a complete new feel.</p>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Features Section -->
-    <section class="features">
-      <div class="container">
-        <h2 class="section-title">Why Choose BuildCraft</h2>
-        <div class="features-grid">
-          <div class="feature">
-            <div class="feature-icon">✓</div>
-            <h3>Licensed & Insured</h3>
-            <p>Fully licensed and insured for your peace of mind</p>
-          </div>
-          <div class="feature">
-            <div class="feature-icon">✓</div>
-            <h3>Quality Materials</h3>
-            <p>We use only premium materials for lasting results</p>
-          </div>
-          <div class="feature">
-            <div class="feature-icon">✓</div>
-            <h3>On-Time Delivery</h3>
-            <p>Projects completed on schedule, every time</p>
-          </div>
-          <div class="feature">
-            <div class="feature-icon">✓</div>
-            <h3>Competitive Pricing</h3>
-            <p>Transparent pricing with no hidden costs</p>
-          </div>
+      <section id="projects" class="section">
+        <h2>Why homeowners choose us</h2>
+        <div class="stats">
+          <div class="stat"><strong>280+</strong><span>Homes Renovated</span></div>
+          <div class="stat"><strong>4.9/5</strong><span>Average Rating</span></div>
+          <div class="stat"><strong>12 yrs</strong><span>NZ Experience</span></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-content">
-          <div class="contact-info">
-            <h3>Contact Information</h3>
-            <div class="contact-item"><strong>Phone:</strong> +1 (555) 123-4567</div>
-            <div class="contact-item"><strong>Email:</strong> info@buildcraft.com</div>
-            <div class="contact-item">
-              <strong>Address:</strong> 123 Construction Ave, Building City, BC 12345
-            </div>
-            <div class="contact-item"><strong>Hours:</strong> Mon-Fri 8AM-6PM, Sat 9AM-4PM</div>
-          </div>
-          <div class="contact-form">
-            <h3>Request a Quote</h3>
-            <form>
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-              <input type="tel" placeholder="Your Phone" />
-              <textarea placeholder="Tell us about your project" rows="4" required></textarea>
-              <button type="submit" class="submit-button">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+      <section id="contact" class="cta">
+        <h2>Ready to transform your home?</h2>
+        <p>Email us at <strong>hello@nestcointeriors.co.nz</strong> or call <strong>0800 637 826</strong>.</p>
+        <a class="btn primary" href="mailto:hello@nestcointeriors.co.nz">Contact Us</a>
+      </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">BuildCraft</div>
-          <div class="footer-text">© 2024 BuildCraft Construction. All rights reserved.</div>
-        </div>
-      </div>
-    </footer>
+    <footer class="footer">© 2026 Nest & Co Interiors · Auckland, New Zealand</footer>
   </div>
 </template>
 
 <style scoped>
-.homepage {
-  line-height: 1.6;
-  color: #333;
+:global(:root) {
+  --bg: #f8f3ec;
+  --card: #fffdf9;
+  --text: #2f2a24;
+  --muted: #7a6d61;
+  --brand: #a66a3f;
+  --brand-soft: #f2e5d8;
+  --line: #eadfce;
+}
+
+.page {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Hero Section */
-.hero {
-  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-  color: white;
-  min-height: 100vh;
-  position: relative;
-}
-
-.navbar {
-  position: fixed;
+.header {
+  position: sticky;
   top: 0;
-  width: 100%;
-  background: rgba(44, 62, 80, 0.95);
-  backdrop-filter: blur(10px);
-  z-index: 1000;
-  padding: 1rem 0;
+  z-index: 10;
+  background: rgba(248, 243, 236, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line);
 }
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.nav {
+  height: 70px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #3498db;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.nav-links {
+.logo span {
+  color: var(--brand);
+}
+
+.links a {
+  margin-left: 18px;
+  color: var(--muted);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 24px;
+  align-items: center;
+  padding: 56px 0 26px;
+}
+
+.hero h1 {
+  font-size: clamp(30px, 5vw, 46px);
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 14px 0 22px;
+  color: var(--muted);
+}
+
+.hero-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 8px 24px rgba(64, 39, 18, 0.07);
+}
+
+.hero-card img {
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.actions {
   display: flex;
-  gap: 2rem;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.nav-links a {
-  color: white;
+.btn {
+  display: inline-block;
   text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #3498db;
-}
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  padding: 0 20px;
-}
-
-.hero-title {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
-
-.cta-button {
-  background: #e74c3c;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  font-size: 1.1rem;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.cta-button:hover {
-  background: #c0392b;
-  transform: translateY(-2px);
-}
-
-/* Section Styles */
-.section-title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-  color: #2c3e50;
-}
-
-/* Services Section */
-.services {
-  padding: 80px 0;
-  background: #f8f9fa;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.service-card {
-  background: white;
-  padding: 2rem;
   border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  padding: 11px 18px;
+  font-weight: 600;
 }
 
-.service-card:hover {
-  transform: translateY(-5px);
+.btn.primary {
+  background: var(--brand);
+  color: #fff;
 }
 
-.service-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.btn.light {
+  background: var(--brand-soft);
+  color: #7a4b2a;
 }
 
-.service-card h3 {
-  color: #2c3e50;
-  margin-bottom: 1rem;
+.section {
+  padding: 22px 0;
 }
 
-/* About Section */
-.about {
-  padding: 80px 0;
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.about-content {
+.muted {
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
 }
 
-.about-text p {
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+.card,
+.stat,
+.cta {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.card {
+  padding: 18px;
+}
+
+.card h3 {
+  margin-bottom: 6px;
+}
+
+.card p {
+  color: var(--muted);
 }
 
 .stats {
-  display: flex;
-  gap: 2rem;
-  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
 
 .stat {
+  padding: 16px;
   text-align: center;
 }
 
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #3498db;
+.stat strong {
+  display: block;
+  color: var(--brand);
+  font-size: 28px;
 }
 
-.stat-label {
-  font-size: 0.9rem;
-  color: #666;
+.stat span {
+  color: var(--muted);
+  font-size: 13px;
 }
 
-.image-placeholder {
-  background: #e0e0e0;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  border-radius: 10px;
-}
-
-/* Features Section */
-.features {
-  padding: 80px 0;
-  background: #f8f9fa;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.feature {
+.cta {
+  margin: 26px 0 40px;
   text-align: center;
-  padding: 2rem;
+  padding: 24px;
 }
 
-.feature-icon {
-  width: 60px;
-  height: 60px;
-  background: #3498db;
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
+.cta p {
+  color: var(--muted);
+  margin: 8px 0 16px;
 }
 
-.feature h3 {
-  color: #2c3e50;
-  margin-bottom: 1rem;
-}
-
-/* Contact Section */
-.contact {
-  padding: 80px 0;
-}
-
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-}
-
-.contact-info h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-}
-
-.contact-item {
-  margin-bottom: 1rem;
-}
-
-.contact-form {
-  background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 10px;
-}
-
-.contact-form h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-family: inherit;
-}
-
-.submit-button {
-  background: #3498db;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.submit-button:hover {
-  background: #2980b9;
-}
-
-/* Footer */
 .footer {
-  background: #2c3e50;
-  color: white;
-  padding: 2rem 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  padding: 0 0 30px;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #3498db;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.5rem;
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
   }
 
-  .hero-subtitle {
-    font-size: 1.2rem;
+  .grid,
+  .stats {
+    grid-template-columns: 1fr;
   }
 
-  .nav-links {
+  .links {
     display: none;
   }
 
-  .about-content,
-  .contact-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .stats {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
+  .hero-card img {
+    height: 240px;
   }
 }
 </style>
