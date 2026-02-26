@@ -5,7 +5,7 @@ import IndustryNavPage from '../components/industry/IndustryNavPage.vue'
 import ChainPage from '../components/industry/ChainPage.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
